@@ -184,4 +184,13 @@ public class FleschIndex extends Application {
         else if (score >= 0) return "College graduate";
         else return "Advanced degree graduate";
     }
+
+    /**
+     * Launch the application.
+     *
+     * @param args not used.
+     */
+    public static void main(String[] args) {
+        launch(args);
+    }
 }
